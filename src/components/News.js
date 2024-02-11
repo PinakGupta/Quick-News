@@ -29,7 +29,7 @@ export class News extends Component {
             page:1,
             totalResults:0
         }
-        document.title=`${this.capitalize(this.props.category)} - NewsMonkey`
+        document.title=`${this.capitalize(this.props.category)} - Quick News`
     }
 
     async updateNews(){
