@@ -68,7 +68,7 @@ export class News extends Component {
     fetchMoreData = () => {
         if (this.state.articles.length < this.state.totalResults) {
             this.setState(prevState => ({
-                page: prevState.page + 1
+                page:prevState.page + 1
             }), () => {
                 this.updateNews();
             });
